@@ -400,7 +400,6 @@ static void Guess()
 
     Random numberGen = new Random();
     int number = numberGen.Next(1, 1001);
-    Console.WriteLine(number);
 
     for (int i = 1; i <= 10; i++)
     {
